@@ -1,0 +1,20 @@
+/* .container {
+    margin-top: 4rem;
+} */
+
+.head-card {
+    background-color: #000;
+    margin: 1rem;
+    padding: 1rem;
+    height: 80vh;
+    background-image: url('../../../public/img/iphone.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 6rem;
+}
+
+@media (min-width: 768px) {
+    .head-card {
+        margin: 0 2rem;
+    }
+}

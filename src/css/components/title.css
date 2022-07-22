@@ -1,0 +1,47 @@
+.container-title {
+    /* position: fixed;
+    width: 92%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem;
+    padding: 1rem 0;
+}
+
+.container-title h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container-title button {
+    background-color: #0071e3;
+    color: white;
+    font-weight: 500;
+    padding: 4px 11px;
+    border-radius: 9999px;
+}
+
+.container-title_nav {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.container-title_nav:first-child {
+    color: gray;
+}
+
+.nav-item {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .container-title {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    .nav-item {
+        display: block;
+        font-size: 12px;
+    }
+}

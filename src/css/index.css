@@ -1,2 +1,5 @@
 @import './global/globalcss.css';
 @import './components/navbar.css';
+@import './components/title.css';
+@import './components/head.css';
+@import './components/data.css';
