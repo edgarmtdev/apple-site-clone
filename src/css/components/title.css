@@ -37,7 +37,7 @@
 
 @media (min-width: 768px) {
     .container-title {
-        max-width: 1024px;
+        max-width: 1000px;
         margin: 0 auto;
     }
     .nav-item {

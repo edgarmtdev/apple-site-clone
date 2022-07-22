@@ -1,27 +1,68 @@
 .data-card {
-    text-align: center;
-    background-color: #000;
-    margin: 1rem;
-    padding: 1rem;
-    height: 80vh;
-    font-weight: 400;
+  background-color: #000;
+  margin: 1rem;
+  padding: 1rem;
+  padding-top: 3rem;
+  height: 80vh;
 }
 .data-card h2 {
-    font-size: 80px;
-    max-width: 900px;
-    margin: 0 auto;
+  font-size: 38px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .data-card p {
+  font-size: 20px;
+  max-width: 900px;
+  margin: 2rem auto;
+  font-weight: 500;
+  color: #aaa;
+}
+
+.data-card_price {
+  margin-top: 5rem;
+  font-size: 16px;
+  color: #aaa;
+}
+
+@media (max-width: 320px) {
+  .data-card h2 {
     font-size: 28px;
     max-width: 900px;
-    margin: 1rem auto;
+    margin: 0 auto;
+  }
+
+  .data-card p {
+    font-size: 16px;
+    max-width: 900px;
+    margin: 2rem auto;
     font-weight: 500;
     color: #aaa;
+  }
+  .data-card_price {
+    margin-top: 5rem;
+    font-size: 12px;
+    color: #aaa;
+  }
 }
 
 @media (min-width: 768px) {
-    .data-card {
-        margin: 2rem 2rem;
-    }
+  .data-card {
+    margin: 2rem 2rem;
+    text-align: center;
+  }
+
+  .data-card h2 {
+    font-size: 72px;
+    font-weight: 500;
+  }
+
+  .data-card p {
+    font-size: 26px;
+  }
+
+  .data-card_price {
+    margin-top: 5rem;
+    font-size: 22px;
+  }
 }

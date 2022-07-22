@@ -6,15 +6,41 @@
     background-color: #000;
     margin: 1rem;
     padding: 1rem;
+    padding-top: 4rem;
     height: 80vh;
-    background-image: url('../../../public/img/iphone.png');
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: 6rem;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.iphone-frame {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 @media (min-width: 768px) {
     .head-card {
         margin: 0 2rem;
+    }
+    .iphone-frame {
+        margin: 0 ;
+    }
+}
+
+
+@media (min-width: 920px) {
+    .head-card {
+        margin: 0 2rem;
+        position: relative;
+    }
+    .iphone-frame {
+        margin: 0 7%;
+        position: absolute;
+    }
+}
+
+@media (min-width: 1024px) {
+    .iphone-frame {
+        margin: 0 17%;
     }
 }
