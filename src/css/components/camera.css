@@ -1,0 +1,64 @@
+.camera-glass {
+  /* display: grid; */
+  /* grid-template-rows: 1.5fr 2fr;  */
+  padding: 1rem;
+}
+
+.camera-glass_data,
+.camera-glass_image {
+  background-color: #000;
+  height: 40vh;
+  margin-bottom: 1rem;
+  padding: 16px;
+}
+
+.data-section {
+  margin-top: 10%;
+  max-width: 90%;
+}
+
+.data-section h3 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.data-section p {
+  font-size: 20px;
+  color: #aaa;
+}
+
+.camera-glass_image {
+  background-image: url("https://assets.website-files.com/5d9d9b94bce4557fd6335ce9/5d9dbddd916a65ffea9caba9_hero_gallery_camera_glass__bhv9k5jrv1oy_large_2x.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-size: cover;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .camera-glass {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    gap: 1rem;
+    padding: 2rem;
+  }
+
+  .camera-glass_data,
+  .camera-glass_image {
+    height: 70vh;
+  }
+  .camera-glass_image {
+    background-position-y: 150px;
+  }
+
+  .data-section {
+    padding: 16px;
+    margin-top: 20%;
+    max-width: 90%;
+  }
+  
+  .data-section h3 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+}
