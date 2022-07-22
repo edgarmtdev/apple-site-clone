@@ -1,0 +1,27 @@
+.nav {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.nav-navbar {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav-navbar_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    margin: 0 12px;
+}
+
+.nav-navbar_link a:hover {
+    transition: .5s;
+    color: rgb(200, 200, 200);
+}

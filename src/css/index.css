@@ -1,3 +1,2 @@
-body {
-    background-color: aqua;
-}
+@import './global/globalcss.css';
+@import './components/navbar.css';
