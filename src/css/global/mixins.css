@@ -1,0 +1,23 @@
+@define-mixin xs-screen {
+  @media screen and (min-width: 320px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin sm-screen {
+  @media screen and (min-width: 600px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin md-screen {
+  @media screen and (min-width: 960px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin lg-screen {
+  @media screen and (min-width: 1280px) {
+    @mixin-content;
+  }
+}
