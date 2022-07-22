@@ -1,0 +1,9 @@
+# Depemdencies
+node_modules/
+
+# Assets
+assets/
+static/
+
+# Output
+build/
