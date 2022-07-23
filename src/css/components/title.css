@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 1rem;
     padding: 1rem 2rem;
 }
 
@@ -12,7 +11,7 @@
     top: 0;
     padding: 1rem 2rem;
     background-color: #111111;
-    z-index: 10;
+    z-index: 20;
 }
 
 .container-title h1 {
@@ -45,8 +44,12 @@
 @media (min-width: 768px) {
     .container-title {
         /* max-width: 1000px; */
-        margin: 0 auto;
     }
+
+    .fixed {
+        padding: 1rem 2rem;
+    }
+
     .nav-item {
         display: block;
         font-size: 12px;

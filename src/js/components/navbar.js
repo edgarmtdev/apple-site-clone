@@ -3,9 +3,7 @@
 const nav = document.querySelector('.nav')
 const title = document.querySelector('.container-title')
 
-
 const onIntersection = (changes) => {
-    console.log(changes);
     changes.forEach(change => {
         if (change.isIntersecting) {
             title.classList.remove('fixed')
