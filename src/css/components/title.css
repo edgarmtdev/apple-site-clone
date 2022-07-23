@@ -1,11 +1,18 @@
 .container-title {
-    /* position: fixed;
-    width: 92%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 1rem;
-    padding: 1rem 0;
+    padding: 1rem 2rem;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 1rem 2rem;
+    background-color: #111111;
+    z-index: 10;
 }
 
 .container-title h1 {
@@ -37,7 +44,7 @@
 
 @media (min-width: 768px) {
     .container-title {
-        max-width: 1000px;
+        /* max-width: 1000px; */
         margin: 0 auto;
     }
     .nav-item {
