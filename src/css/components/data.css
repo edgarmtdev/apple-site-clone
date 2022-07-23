@@ -8,7 +8,8 @@
 .data-card_info {
   background-color: #000;
   height: 80vh;
-  padding-top: 4rem;
+  padding: 1rem;
+  /* padding-top: 4rem; */
   margin: 1rem;
   object-fit: cover;
   z-index: 9;
@@ -69,7 +70,8 @@
   }
 
   .data-card_info {
-    margin: 0 2rem 1rem 2rem;
+    margin: 0 2rem 0rem 2rem;
+        /* padding-top: 4rem; */
   }
 
   .data-card h2 {
