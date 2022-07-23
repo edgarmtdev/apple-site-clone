@@ -1,0 +1,95 @@
+.lens-section {
+    position: relative;
+    background-color: #000;
+    height: 90vh;
+    overflow:hidden ;
+    /* margin-bottom: 16px; */
+}
+
+.background {
+    z-index: 1;
+    /* animation: rotate 5s infinite; */
+}
+
+#lens1 {
+    position: absolute;
+    right: -12rem;
+    top: 6rem;
+    width: 20rem;
+    height: 20rem;
+    background-image: url('https://assets.website-files.com/5d9d9b94bce4557fd6335ce9/5d9dcf5ead4a3a7806cefbef_camera_hero_middle_lens__dl622r81r866_large_2x.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: rotate 2s ease-in;
+}
+
+#lens2 {
+    position: absolute;
+    left: -6rem;
+    top: -9rem;
+    width: 20rem;
+    height: 20rem;
+    background-image: url('https://assets.website-files.com/5d9d9b94bce4557fd6335ce9/5d9dcf5ead4a3a7806cefbef_camera_hero_middle_lens__dl622r81r866_large_2x.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: rotate 2s ease-in ;
+
+}
+
+#lens3 {
+    position: absolute;
+    right: 43%;
+    bottom: -1rem;
+    width: 20rem;
+    height: 20rem;
+    background-image: url('https://assets.website-files.com/5d9d9b94bce4557fd6335ce9/5d9dcf5ead4a3a7806cefbef_camera_hero_middle_lens__dl622r81r866_large_2x.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: rotate 2s ease-in;
+
+}
+
+.lens-section_heading {
+    position: absolute;
+    z-index: 10;
+    max-width: 55%;
+    top: 20%;
+    left: 15%;
+}
+
+.lens-section_heading h2 {
+    font-size: 58px;
+    font-weight: 400;
+}
+
+@keyframes rotate {
+    from {
+        transform: translate(5rem, 5rem);
+    }
+    to {
+        transform: translate(0rem);
+    }
+}
+
+@media (min-width:1240px) {
+    #lens1 {
+        right: 7rem;
+        top: 0rem;
+        width: 30rem;
+        height: 30rem;
+    }
+    
+    #lens2 {
+        left: 9rem;
+        top: -14rem;
+        width: 30rem;
+        height: 30rem;
+    }
+    
+    #lens3 {
+        right: 43%;
+        bottom: -15rem;
+        width: 30rem;
+        height: 30rem;
+    }
+}

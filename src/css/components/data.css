@@ -2,7 +2,6 @@
   background-color: #000;
   margin: 1rem;
   padding: 1rem;
-  padding-top: 0rem;
   height: 80vh;
 }
 .data-card h2 {
@@ -49,6 +48,7 @@
 @media (min-width: 768px) {
   .data-card {
     margin: 2rem 2rem;
+    padding-top: 3rem;
     text-align: center;
   }
 
